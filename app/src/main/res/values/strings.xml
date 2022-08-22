@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AppUILayout</string>
+    <string name="infnet">Infnet</string>
+    <string name="ads">ADS</string>
+    <string name="computacao">Computação</string>
+    <string name="helloworld">Hello World!</string>
+    <string name="btnenviar">Enviar</string>
+    <string name="button">Button</string>
+    <string name="nome">Nome</string>
+    <string name="to">To:</string>
+    <string name="message">Message:</string>
+    <string name="enviar">Enviar</string>
+    <string name="um_pato_contente_cheio_de_dinehiro">Um pato contente cheio de dinehiro</string>
+    <string name="isso_um_pato">Isso é um pato</string>
+    <string name="messageedit">Message</string>
+    <string name="send">Send</string>
+</resources>

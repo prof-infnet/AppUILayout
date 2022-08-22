@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity"
+    android:padding="@dimen/padding"
+
+    >
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/to"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:background="#FF6600"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/message"
+        android:gravity="top"
+        android:autofillHints="0"
+        android:inputType="textMultiLine"
+        android:background="#FF0000"
+        android:layout_marginTop="@dimen/margintop_message"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/enviar"
+        android:layout_marginTop="@dimen/marginTopEnviar"
+        />
+</LinearLayout>

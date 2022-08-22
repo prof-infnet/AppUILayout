@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@drawable/duck"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/um_pato_contente_cheio_de_dinehiro"
+        />
+
+    <TextView
+        android:id="@+id/nomedafoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize"
+        android:text="@string/isso_um_pato" />
+
+</FrameLayout>

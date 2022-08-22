@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textsize">40sp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="margintop_message">20dp</dimen>
+    <dimen name="marginTopEnviar">40dp</dimen>
+    <dimen name="textSize">24sp</dimen>
+</resources>
