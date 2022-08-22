@@ -14,4 +14,7 @@
     <string name="isso_um_pato">Isso é um pato</string>
     <string name="messageedit">Message</string>
     <string name="send">Send</string>
+    <string name="button1">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
 </resources>
