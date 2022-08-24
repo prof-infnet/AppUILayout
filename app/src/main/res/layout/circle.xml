@@ -2,47 +2,35 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-
-    android:id="@+id/constraintlayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btna"
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <Button
+        android:id="@+id/b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-
-
-        android:text="@string/button1"
+        android:text="B"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
+        app:layout_constraintCircle="@id/a"
+        app:layout_constraintCircleAngle="60"
+        app:layout_constraintCircleRadius="100dp"
         />
 
-    <Button
-        android:id="@+id/btnb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/b"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btna"
-
-        app:layout_constraintStart_toStartOf="@+id/btna"
-        app:layout_constraintTop_toBottomOf="@+id/btna"/>
-
-
-    <Button
-        android:id="@+id/btnc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/c"
-
-        app:layout_constraintBaseline_toBaselineOf="@+id/btna"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btna"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
